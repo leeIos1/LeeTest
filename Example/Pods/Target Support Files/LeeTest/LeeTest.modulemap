@@ -1,0 +1,6 @@
+framework module LeeTest {
+  umbrella header "LeeTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

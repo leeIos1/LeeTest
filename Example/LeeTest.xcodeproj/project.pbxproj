@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		192E1F6E22C490238FEE9A26 /* Pods_LeeTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeeTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		39273FF16D1AEDD0CF4EDDE5 /* LeeTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LeeTest.podspec; path = ../LeeTest.podspec; sourceTree = "<group>"; };
-		3DEE0FF728D1EC3437261AD4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		39273FF16D1AEDD0CF4EDDE5 /* LeeTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LeeTest.podspec; path = ../LeeTest.podspec; sourceTree = "<group>"; };
+		3DEE0FF728D1EC3437261AD4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LeeTest_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeeTest_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		9119EA7C0993CA0BD8E30285 /* Pods-LeeTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeeTest_Tests.release.xcconfig"; path = "Target Support Files/Pods-LeeTest_Tests/Pods-LeeTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DAEFEBA24DB211B6607371F4 /* Pods-LeeTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeeTest_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LeeTest_Tests/Pods-LeeTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E41B02471B37717DF076A623 /* Pods-LeeTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeeTest_Example.debug.xcconfig"; path = "Target Support Files/Pods-LeeTest_Example/Pods-LeeTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EE291CF3F8988EF7628DE3B5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EE291CF3F8988EF7628DE3B5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				DAEFEBA24DB211B6607371F4 /* Pods-LeeTest_Tests.debug.xcconfig */,
 				9119EA7C0993CA0BD8E30285 /* Pods-LeeTest_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "963548472@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = H4V4BWGRWU;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = E41B02471B37717DF076A623 /* Pods-LeeTest_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H4V4BWGRWU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LeeTest/LeeTest-Prefix.pch";
 				INFOPLIST_FILE = "LeeTest/LeeTest-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 66EFEDD5C53950708C7514ED /* Pods-LeeTest_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H4V4BWGRWU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LeeTest/LeeTest-Prefix.pch";
 				INFOPLIST_FILE = "LeeTest/LeeTest-Info.plist";
