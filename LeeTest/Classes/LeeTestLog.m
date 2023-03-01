@@ -10,7 +10,7 @@
 @implementation LeeTestLog
 
 -(void)lee_log{
-    NSLog(@"xiugai1私有库测试");
+    NSLog(@"x+++私有库测试");
 }
 
 @end
